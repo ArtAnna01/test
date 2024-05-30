@@ -15,7 +15,7 @@ This is a simple blog application built with React, Ant Design, Zustand, and Rea
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/ArtAnna01/blog_app.git
+    git clone https://github.com/ArtAnna01/test.git
     ```
 
 2. Navigate to the project directory:
