@@ -21,7 +21,7 @@ This is a simple blog application built with React, Ant Design, Zustand, and Rea
 2. Navigate to the project directory:
 
     ```bash
-    cd blog_app
+    cd test
     ```
 
 3. Install dependencies:
