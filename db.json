@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "Third post",
+      "views": 150
+    },
+    {
+      "id": "4",
+      "title": "Fourth post",
+      "views": 220
+    },
+    {
+      "id": "5",
+      "title": "Fifth post",
+      "views": 300
+    },
+    {
+      "id": "6",
+      "title": "Sixth post",
+      "views": 180
+    },
+    {
+      "id": "7",
+      "title": "Seventh post",
+      "views": 90
+    },
+    {
+      "id": "8",
+      "title": "Eighth post",
+      "views": 210
+    },
+    {
+      "id": "9",
+      "title": "Ninth post",
+      "views": 230
+    },
+    {
+      "id": "10",
+      "title": "Tenth post",
+      "views": 110
+    },
+    {
+      "id": "11",
+      "title": "Eleventh post",
+      "views": 120
+    },
+    {
+      "id": "12",
+      "title": "Twelfth post",
+      "views": 130
+    },
+    {
+      "id": "8822",
+      "title": "title",
+      "views": "100"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
