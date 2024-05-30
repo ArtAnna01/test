@@ -1,30 +1,82 @@
-# React + TypeScript + Vite
+# Blog Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple blog application built with React, Ant Design, Zustand, and React Query. The application allows users to register, log in, view a list of blog posts, view individual blog posts, add, edit, and delete blog posts.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
+    ```bash
+    git clone https://github.com/ArtAnna01/blog_app.git
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Navigate to the project directory:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```bash
+    cd blog_app
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the JSON server:
+
+    ```bash
+    npx json-server --watch db.json --port 3000
+    ```
+
+5. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+## Usage
+
+- Open your browser and navigate to `http://localhost:5173`.
+- Register a new user.
+- Log in with your registered credentials.
+- View the list of blog posts.
+- Click on a blog post title to view the post details.
+- Add a new blog post.
+- Edit an existing blog post.
+- Delete a blog post.
+
+
+## Features
+
+- **Authentication**: Users can register and log in.
+- **View Posts**: View a list of all blog posts.
+- **View Post Details**: Click on a post to view its details.
+- **Add Post**: Add a new blog post.
+- **Edit Post**: Edit an existing blog post.
+- **Delete Post**: Delete a blog post.
+- **Styling**: Follows BEM conventions for SCSS.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Ant Design**: A React UI library with a set of high-quality components.
+- **Zustand**: A small, fast, and scalable bearbones state-management solution.
+- **React Query**: Hooks for fetching, caching, and updating asynchronous data in React.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
